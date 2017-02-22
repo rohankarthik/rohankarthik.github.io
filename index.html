@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>Home Automation</title>
+	    <link type="text/css" rel="stylesheet" href="/css/styles.css"> 
+	    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	    <script type="text/javascript" src="/js/index.js"></script>    
+
+	    <!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<div class="row">
+		  <div class="col-sm-3 col-md-3 col-lg-3"></div>
+		  <div class="col-sm-6 col-md-6 col-lg-6">
+			  	<div class="well header">
+	  				<h1>Home Automation</h1>
+			  	</div>
+			  	<div class="well well-lg">
+			  	<div class="home_container">
+					<div id="home_top"></div>
+
+					<div class="room">
+						<div>
+							<img id="light_switch" src="image/light_switch.jpg" />
+							<img id="curtain_switch" src="image/curtains.png" />
+						</div>
+
+						<div class="door"></div>
+					</div>
+
+					<div class="temperature_section">
+						<label for="temperature">Temperature : </label>
+						<input type="number" id="temperature" min="50" max="100"><span><strong><sup>  o</sup> F</strong></span> 
+						<div><em> (Altering temperature value changes the color of the roof top)</em></div>
+					</div>
+					<div>
+					    <input type="button" id="post_to_server" value="Save current home state" class="form-control btn btn-primary" />
+				    </div>
+				    </div>
+				</div>
+		  </div>
+		  <div class="col-sm-3 col-md-3 col-lg-3"></div>
+		</div>
+	</body>
+</html>

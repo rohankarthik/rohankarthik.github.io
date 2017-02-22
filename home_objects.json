@@ -1,0 +1,21 @@
+{
+  "Components": {
+  	"lights": {
+		"name": "Lights",
+		"current-value": "Off"
+	},
+	"curtains": {
+		"name": "Curtains",
+		"current-value": "Closed"
+	},
+	"temperature": {
+		"name": "Temperature",
+		"current-value": 72
+	}
+	
+	}
+}
+
+
+
+			

@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+}
+
+body {
+  background-color:#663300 !important;
+}
+
+h1 {
+    text-align: center;
+}
+
+.header {
+    margin-top: 10px;
+}
+
+#home_top {
+    width: 0;
+    height: 0;
+    border-left: 218px solid transparent;
+    border-right: 218px solid transparent;
+}
+
+.home_container{
+    margin-left:  16%;
+    margin-right:  15%;
+}
+
+.temperature_section{
+    margin: 10px;
+}
+
+.room {
+    width: 436px;
+    height: 300px;
+    background: #ffffff;
+    border: 2px solid #000000;
+}
+
+.room.light { background-color: #ffbf00; }
+
+.door {
+    width: 120px;
+    height: 160px;
+    background: #8B4513;
+    margin: auto;
+    margin-top: 136px;
+}
+
+.door.curtain {
+  color: white;
+  background: repeating-linear-gradient(
+    45deg,
+    #DEB887,
+    #DEB887 10px,
+    #D2691E 10px,
+    #D2691E 20px
+  );
+}
+
+#light_switch {
+	width: 60px;
+	height: 60px;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#curtain_switch {
+    width: 70px;
+    height: 75px;
+    float: right;
+    margin-top: 12px;
+}
+
+#post_to_server{
+    width: 96%;
+}
